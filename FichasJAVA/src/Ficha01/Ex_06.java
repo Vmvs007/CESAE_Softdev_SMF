@@ -25,6 +25,7 @@ public class Ex_06 {
         System.out.println("Valor 2: "+valor2);
 
         // Trocar as variáveis
+        System.out.println("\nTroca em progresso...");
          valor1=valor1+valor2;
          valor2 = valor1 - valor2;
          valor1=valor1-valor2;
