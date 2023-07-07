@@ -9,6 +9,9 @@ public class Ex_04 {
         // Linha obrigatória porque o formador disse que sim
         Scanner input = new Scanner(System.in);
 
+        System.out.println("***** Exercício 4 *****");
+
+        // Declarar variáveis
     }
 
 
