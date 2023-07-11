@@ -8,6 +8,17 @@ public class Ex_02 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
+        double salario;
+
+        // Ler input do utilizador
+        System.out.println("Insira o salário: ");
+        salario= input.nextDouble();
+
+        if(salario<=15000){ // Salário menor ou igual que 15.000
+            System.out.println("Paga taxa de 20%: "+(salario*0.2));
+        }else{
+            System.out.println("Paga taxa de 30%: "+(salario*0.3));
+        }
 
     }
 }

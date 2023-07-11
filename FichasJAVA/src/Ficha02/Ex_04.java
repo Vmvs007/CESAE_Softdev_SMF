@@ -12,21 +12,46 @@ public class Ex_04 {
         int lugar;
 
         // Ler input do utilizador
+        System.out.print("Insira o lugar da corrida: ");
         lugar= input.nextInt();
 
+        // Escolhar, consoante o lugar, os pontos a atribuir
        switch (lugar){
-           case 1: // lugar == 1
+           case 1: // if(lugar == 1)
                System.out.println("Ganhou 10 pontos");
                break;
 
-           case 2: // lugar == 2
+           case 2: // if(lugar == 2)
                System.out.println("Ganhou 8 pontos");
                break;
 
-           case 3: // lugar == 3
+           case 3: // if(lugar == 3)
                System.out.println("Ganhou 6 pontos");
                break;
 
+               case 4:
+                   System.out.println("Ganhou 5 pontos");
+                   break;
+
+           case 5:
+               System.out.println("Ganhou 4 pontos");
+               break;
+
+           case 6:
+               System.out.println("Ganhou 3 pontos");
+               break;
+
+           case 7:
+               System.out.println("Ganhou 2 pontos");
+               break;
+
+           case 8:
+               System.out.println("Ganhou 1 ponto");
+               break;
+
+           default:
+               System.out.println("Não ganhou pontos...");
+               break;
        }
 
 
