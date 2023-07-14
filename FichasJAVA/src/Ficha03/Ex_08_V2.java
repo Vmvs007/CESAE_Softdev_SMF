@@ -2,7 +2,7 @@ package Ficha03;
 
 import java.util.Scanner;
 
-public class Ex_08 {
+public class Ex_08_V2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -16,16 +16,16 @@ public class Ex_08 {
             System.out.print("Insira um número: ");
             num = input.nextDouble();
 
-            if(num!=-1){
-                contador++;
-                somatorio = somatorio + num;
+            contador++;
+            somatorio = somatorio + num;
 
-            }
             System.out.println("Contador: " + contador);
             System.out.println("Somatório: " + somatorio);
         }
 
-        media = somatorio / contador;
+
+
+        media = (somatorio+1) / (contador-1);
         System.out.println("Média: " + media);
 
     }

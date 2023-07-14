@@ -10,5 +10,6 @@ public class Ex_01 {
             num=num+1;
         }
 
+
     }
 }
