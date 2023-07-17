@@ -16,12 +16,15 @@ public class Ex_14 {
         //Calcular e imprimir fatorial de um número
 
 
-        while (fatorial >= num) {
+        while (num <= fatorial) {
 
+            System.out.println("Resultado = "+resultado+" * "+num);
             resultado = resultado * num;
+            System.out.println("Resultado = "+resultado);
             num = num + 1;
-
+            System.out.println("Fatorial: " + resultado);
         }
-        System.out.println("Fatorial: " + resultado);
+
+
     }
 }

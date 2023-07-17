@@ -8,12 +8,7 @@ public class Ex_13 {
         Scanner input = new Scanner(System.in);
 
 //Entrada e declaração de dados:
-        int numContador, numEntrada, numFinal,  numInseridoDesejado;
-        int numMaior, numMenor;
-        numContador = 0;
-        numMaior = 0;
-        numMenor = 0;
-
+        int numContador=0, numEntrada, numFinal,  numInseridoDesejado;
         boolean crescente= true;
 
 //Entrada de dados:
@@ -32,6 +27,7 @@ public class Ex_13 {
             numContador++;
 
             System.out.print("Estou a comparar se: "+numEntrada+" < "+numFinal+": ");
+
             if (numEntrada < numFinal) {
                 System.out.println("Verdadeiro");
             }else{
@@ -44,7 +40,7 @@ public class Ex_13 {
 
         }
 
-        if(crescente==true){
+        if(crescente){ // if(crescente==true)
             System.out.println("Crescente");
         }else{
             System.out.println("Não crescente");
