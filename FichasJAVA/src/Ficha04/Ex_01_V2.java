@@ -43,8 +43,12 @@ public class Ex_01_V2 {
                     break;
 
                 case "/": // Divisão
-                    resultado = num1 / num2;
-                    System.out.println("Divisão: " + resultado);
+                    if(num2==0){
+                        System.out.println("Erro: Divisão por 0");
+                    }else{
+                        resultado = num1 / num2;
+                        System.out.println("Divisão: " + resultado);
+                    }
                     break;
 
                 default:
