@@ -25,6 +25,5 @@ public class Ex_01 {
             System.out.println("Array["+i+"]: "+vetor[i]);
         }
 
-
     }
 }
