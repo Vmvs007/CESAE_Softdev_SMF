@@ -16,6 +16,7 @@ public class Ex_08 {
                 System.out.print("Insira um número na matriz["+linha+"]["+coluna+"]: ");
                 matriz[linha][coluna]=input.nextInt();
             }
+            System.out.println("");
         }
 
         // Imprimir a matriz

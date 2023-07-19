@@ -18,6 +18,7 @@ public class Ex_07 {
             vetor[i]= input.nextInt();
         }
 
+
         // Ciclo para perceber qual o maior par
         for(int i=0; i<10; i++){
 
