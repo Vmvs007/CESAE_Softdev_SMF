@@ -18,13 +18,13 @@ public class Ex_08 {
             }
         }
 
-        for(int i=0; i <3 ; i++){
-            for(int j=0; j<3; j++){
-                System.out.print("Insira um número na matriz["+i+"]["+j+"]: ");
-                matriz[i][i]=input.nextInt();
+        // Imprimir a matriz
+        for(int linha=0; linha <3 ; linha++){
+            for(int coluna=0; coluna<3; coluna++){
+                System.out.print("\t"+matriz[linha][coluna]);
             }
+            System.out.println("");
         }
-
 
     }
 }
