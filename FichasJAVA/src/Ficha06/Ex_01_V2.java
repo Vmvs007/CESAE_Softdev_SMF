@@ -2,9 +2,11 @@ package Ficha06;
 
 import java.util.Scanner;
 
-public class Ex_01 {
+public class Ex_01_V2 {
+
 
     static void fazerBarulho(String animal) {
+        animal=animal.toUpperCase();
         switch (animal){
             case "CAO":
                 System.out.println("Au au au ");
@@ -44,5 +46,7 @@ public class Ex_01 {
         animal = input.next();
 
         fazerBarulho(animal);
+
+        System.out.println("\n\nFIM");
     }
 }
