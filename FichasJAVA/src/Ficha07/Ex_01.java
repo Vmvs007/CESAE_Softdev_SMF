@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class Ex_01 {
 
+    /**
+     * Método que imprime o conteudo de um ficheiro na consola
+     * @param path Caminho do ficheiro a ler
+     * @throws FileNotFoundException Caso o ficheiro não seja encontrado
+     */
     public static void imprimirFicheiro(String path) throws FileNotFoundException {
 
         Scanner scannerFicheiro = new Scanner(new File(path));
