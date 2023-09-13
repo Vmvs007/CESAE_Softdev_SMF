@@ -105,7 +105,7 @@ public static void musicarPorGenero(String[][] matriz){
 
     System.out.println("***** Músicas de "+generoPretendido+" *****");
     for(int linha =0; linha<matriz.length;linha++){
-        if(matriz[linha][2].equals(generoPretendido)){
+        if(matriz[linha][2].equalsIgnoreCase(generoPretendido)){
             System.out.println("\nNome da Música: "+matriz[linha][0]);
             System.out.println("Artista: "+matriz[linha][1]);
             System.out.println("Duracao: "+matriz[linha][3]);
