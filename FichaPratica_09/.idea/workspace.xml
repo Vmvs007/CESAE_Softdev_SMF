@@ -4,9 +4,10 @@
     <list default="true" id="81c84e3a-87e2-4b10-8ad1-1b0582c9ff78" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_01/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_02/Cao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_01/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_01/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_02/Cao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_02/Cao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ex_02.Main">
+    <configuration name="Ex_02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_02.Main" />
+      <module name="FichaPratica_09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex_01.Main" />
       <module name="FichaPratica_09" />
@@ -59,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_02.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -72,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694774661989</updated>
       <workItem from="1694774663132" duration="23000" />
-      <workItem from="1694774733519" duration="1080000" />
+      <workItem from="1694774733519" duration="1796000" />
     </task>
     <servers />
   </component>
