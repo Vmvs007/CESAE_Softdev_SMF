@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81c84e3a-87e2-4b10-8ad1-1b0582c9ff78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FichaPratica_10/src/Ex_01/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FichaPratica_10/src/Ex_01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FichaPratica_10/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FichaPratica_10/src/Ex_03/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FichaPratica_10/src/Ex_03/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vmvs0/Documents/CESAE_Softdev_SMF/FichaPratica_09",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vmvs0/Documents/CESAE_Softdev_SMF/FichaPratica_09&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Ex_03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex_03.Main" />
@@ -138,6 +136,7 @@
       <workItem from="1694790370161" duration="3059000" />
       <workItem from="1695026492678" duration="30000" />
       <workItem from="1695026553652" duration="29000" />
+      <workItem from="1695051500222" duration="13000" />
     </task>
     <servers />
   </component>
