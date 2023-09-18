@@ -1,5 +1,6 @@
 package Ex_01;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Main {
         carro2.ligar();
         carro3.ligar();
         carro4.ligar();
-        
+
         System.out.println("\nVencedor da Corrida 1:");
 
         Carro vencedor1 = carro1.corrida(carro2);
@@ -36,9 +37,6 @@ public class Main {
             vencedor.exibirDetalhes();
         }
         */
-
-
-
 
     }
 
