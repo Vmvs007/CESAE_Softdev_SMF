@@ -18,6 +18,13 @@ public class MusicPlayer {
         this.programacao.set(index,musicaNova);
     }
 
+    public void trocarMusica(int index1, int index2){
+        Musica musicaAux = this.programacao.get(index1);
+
+        this.programacao.set(index1,this.programacao.get(index2));
+        this.programacao.set(index2, musicaAux);
+    }
+
     public void removerMusica (int index){
         this.programacao.remove(index);
     }

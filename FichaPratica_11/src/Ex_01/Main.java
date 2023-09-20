@@ -29,7 +29,10 @@ public class Main {
 
         mp.imprimirDuracaoProgramacao();
 
+        System.out.println();
 
+mp.trocarMusica(0,5);
+mp.imprimirRelatorioForEach();
 
     }
 
