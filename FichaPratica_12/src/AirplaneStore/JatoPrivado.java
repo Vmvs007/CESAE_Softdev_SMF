@@ -53,7 +53,9 @@ public class JatoPrivado extends Aviao{
         this.instalacoes.remove(index);
     }
 
-
+    /**
+     * Método para exibir detalhes do <b>Jato Privado</b>
+     */
     public void exibirDetalhesJato(){
         System.out.println("\nJato Privado");
         super.exibirDetalhes();

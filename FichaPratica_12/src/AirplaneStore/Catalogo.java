@@ -30,6 +30,9 @@ public class Catalogo {
     }
 
 
+    /**
+     * Método que imprime todos os <b>Aviões</b> do <b>Catalogo</b>
+     */
     public void imprimirCatalogo(){
         System.out.println("\n***** Aviões Disponiveis para Venda *****\n");
         for(Aviao aviaoAtual : this.catalogo){

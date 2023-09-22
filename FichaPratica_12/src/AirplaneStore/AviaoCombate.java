@@ -52,7 +52,9 @@ public class AviaoCombate extends Aviao {
         this.arsenal.remove(index);
     }
 
-
+    /**
+     * Método para exibir detalhes do <b>Avião de Combate</b>
+     */
     public void exibirDetalhesCombate(){
         System.out.println("\nAvião de Combate");
         super.exibirDetalhes();
