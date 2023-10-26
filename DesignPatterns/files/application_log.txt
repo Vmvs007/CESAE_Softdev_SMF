@@ -1,0 +1,5 @@
+Log 1: Variável x: 20
+Log 2: Objeto porsche da Classe Car instanciado
+Log 3: Variável y: 40
+Log 4: Objeto mercedes da Classe Car instanciado
+Log 5: porsche vs mercedes (corrida)
