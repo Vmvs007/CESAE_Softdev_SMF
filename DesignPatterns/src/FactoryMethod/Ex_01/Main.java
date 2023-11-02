@@ -1,14 +1,25 @@
 package FactoryMethod.Ex_01;
 
 import java.awt.color.ProfileDataException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Product biblia = ProductFactory.createProduct("book","Biblia", 15,"123456789");
-        Product laptop = ProductFactory.createProduct("eletronics","Laptop HP",500,"Computador Portatil");
+        Map<String, String> bibliaAttributes = new HashMap<>();
 
-        biblia.display();
-        laptop.display();
+        bibliaAttributes.put("isbn", "1234567890");
+        Product biblia = ProductFactory.createProduct("book", "Biblia", 29.99, bibliaAttributes);
+
+        Map<String, String> laptopAttributes = new HashMap<>();
+        laptopAttributes.put("categoria", "laptop");
+        laptopAttributes.put("marca","HP");
+        laptopAttributes.put("consumoWatts","250.5");
+
+        Product laptopHP = ProductFactory.createProduct("eletronics","Laptop HP 15", 600, laptopAttributes);
+
+
+
 
     }
 }

@@ -3,12 +3,19 @@ package FactoryMethod.Ex_01;
 public class Eletronics extends Product{
 
     private String categoria;
+    private String marca;
+    private double consumoWatts;
 
-    public Eletronics(String product_name, double product_price, String categoria) {
+    public Eletronics(String product_name, double product_price, String categoria, String marca, double consumoWatts) {
         super(product_name, product_price);
         this.categoria = categoria;
+        this.marca = marca;
+        this.consumoWatts = consumoWatts;
     }
 
+    /**
+     *
+     */
     @Override
     public void display() {
         System.out.println("***** Eletronics *****");
