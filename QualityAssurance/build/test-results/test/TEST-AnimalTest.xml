@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnimalTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-11-10T12:34:34" hostname="VITORPC" time="0.065">
+  <properties/>
+  <testcase name="comerAlimentoQueNaoGostaTest()" classname="AnimalTest" time="0.052"/>
+  <testcase name="comerAlimentoQueGostaFruta()" classname="AnimalTest" time="0.002"/>
+  <testcase name="getAlimentacaoTest1()" classname="AnimalTest" time="0.003"/>
+  <testcase name="getAlimentacaoTest2()" classname="AnimalTest" time="0.001"/>
+  <testcase name="getNomeTestAnimal1()" classname="AnimalTest" time="0.001"/>
+  <testcase name="getNomeTestAnimal2()" classname="AnimalTest" time="0.001"/>
+  <testcase name="comerAlimentoQueGostaTest()" classname="AnimalTest" time="0.001"/>
+  <testcase name="comerAlimentoQueNaoGostaVegetal()" classname="AnimalTest" time="0.001"/>
+  <system-out><![CDATA[Simba nÃ£o come VEGETAIS.
+Dumbo comeu FRUTAS.
+Simba comeu CARNE.
+Dumbo nÃ£o come CARNE.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
