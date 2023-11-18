@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameStoreTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-11-17T16:46:24" hostname="VITORPC" time="0.074">
+  <properties/>
+  <testcase name="addGameToStockTest()" classname="GameStoreTest" time="0.062"/>
+  <testcase name="addGameToStockTest2()" classname="GameStoreTest" time="0.002"/>
+  <testcase name="stockStartsWith0Size()" classname="GameStoreTest" time="0.001"/>
+  <testcase name="salesStartsWith0Size()" classname="GameStoreTest" time="0.001"/>
+  <testcase name="sellGameTest()" classname="GameStoreTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
