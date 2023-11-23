@@ -29,6 +29,9 @@ public class Catalogo {
         this.catalogo.remove(index);
     }
 
+    public ArrayList<Aviao> getCatalogo() {
+        return catalogo;
+    }
 
     /**
      * Método que imprime todos os <b>Aviões</b> do <b>Catalogo</b>
@@ -45,14 +48,5 @@ public class Catalogo {
             }
 
         }
-    }
-
-    public double calcularValorCatalogo(){
-        double valorTotal=0;
-        for(Aviao aviaoAtual : this.catalogo){
-            valorTotal+=aviaoAtual.getPreco();
-        }
-
-        return valorTotal;
     }
 }

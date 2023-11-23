@@ -52,7 +52,5 @@ public class Main {
         airplaneStore.adquirirAviao(rafale);
 
         airplaneStore.imprimirCatalogo();
-
-        System.out.println("Valor Total: " +airplaneStore.calcularValorCatalogo());
     }
 }

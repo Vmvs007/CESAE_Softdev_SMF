@@ -38,10 +38,6 @@ public class Aviao {
         return modelo;
     }
 
-    public double getPreco() {
-        return preco;
-    }
-
     /**
      * Método para imprimir detalhes do <b>Avião</b>
      */
